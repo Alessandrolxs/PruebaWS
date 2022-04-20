@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaPresentacion", "CapaPresentacion\CapaPresentacion.csproj", "{B3BBAA8A-597A-4D45-B516-83F54114E6F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaLogica", "CapaLogica\CapaLogica.csproj", "{FD61FEEF-BD60-47B3-AEF3-7DD2E4FF3524}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3BBAA8A-597A-4D45-B516-83F54114E6F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3BBAA8A-597A-4D45-B516-83F54114E6F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3BBAA8A-597A-4D45-B516-83F54114E6F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3BBAA8A-597A-4D45-B516-83F54114E6F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD61FEEF-BD60-47B3-AEF3-7DD2E4FF3524}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD61FEEF-BD60-47B3-AEF3-7DD2E4FF3524}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD61FEEF-BD60-47B3-AEF3-7DD2E4FF3524}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD61FEEF-BD60-47B3-AEF3-7DD2E4FF3524}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1EB5EFFD-3568-4B39-B2FC-2652FB3B2DD6}
+	EndGlobalSection
+EndGlobal

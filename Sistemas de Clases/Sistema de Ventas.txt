@@ -1,0 +1,14 @@
+producto -> codigo, nombre, categoria, precio
+categorias -> codigo, nombre
+cliente -> codigo, nombre, apellido, dni, email
+asesor(a) -> codigo, nombre, apellido, edad, telefono, email 
+cajero(a) -> codigo, nombre, apellido, edad, telefono, email
+boleta -> codigo, cliente, producto, asesor(a), estado, total
+detalles -> codigo boleta, codigo producto, cantidad
+
+recepcion -> codigo, nombre, apellido, edad, telefono, email
+cliente -> codigo, nombre, apellido, dni, email
+gerente -> codigo, nombre, apellido, telefono, email
+habitacion -> codigo, tipo, caracteristicas, numero, piso, precio
+boleta -> codigo, cliente, habitacion, gerente, fecha, estado, total
+detalles -> codigo boleta, codigo cliente, codigo habitacion
